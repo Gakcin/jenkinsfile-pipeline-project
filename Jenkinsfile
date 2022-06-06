@@ -15,5 +15,12 @@ pipeline {
                 sh 'python pipeline.py'
             }
         }
+        stage('test') {
+            steps {
+                echo 'Test - Clarusway_Way to Reinvent Yourself - Test'
+                sh 'python --version'
+                sh 'python pipeline.py'
+            }
+        }
     }
 }
