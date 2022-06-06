@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Clarusway_Way to Reinvent Yourself"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
+                echo "Clarusway_Way to Reinvent Yourself****"
+                sh 'echo using shell within Jenkinsfile***'
+                echo 'not using shell in the Jenkinsfile***'
             }
         }
         stage('run') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'Clarusway_Way to Reinvent Yourself***'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
